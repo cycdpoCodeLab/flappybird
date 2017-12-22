@@ -1,0 +1,71 @@
+{
+  "name": "flappybird",
+  "version": "0.0.1",
+  "description": "For hilo learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "build:watch": "gulp pack:build:watch",
+    "build:test_server:watch": "gulp pack:build:test_server:watch",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cycjimmy/flappybird.git"
+  },
+  "keywords": [
+    "h5",
+    "webpack",
+    "sass",
+    "pug"
+  ],
+  "author": "cycjimmy <cycjimmy@gmail.com> (https://github.com/cycjimmy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cycjimmy/flappybird/issues"
+  },
+  "homepage": "https://github.com/cycjimmy/flappybird#readme",
+  "dependencies": {
+    "awesome-js-funcs": "^0.1.0",
+    "hilojs": "^1.1.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "del": "^3.0.0",
+    "expose-loader": "^0.7.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-shell": "^0.6.3",
+    "html-webpack-plugin": "^2.30.1",
+    "image-webpack-loader": "^3.4.2",
+    "merge-stream": "^1.0.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.9",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "uglify-js": "^3.2.2",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-chunk-hash": "^0.5.0",
+    "webpack-md5-hash": "^0.0.6",
+    "webpack-merge": "^4.1.1"
+  }
+}
