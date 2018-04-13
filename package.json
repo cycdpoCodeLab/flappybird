@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cycjimmy/flappybird.git"
+    "url": "git+https://github.com/cycdpoCodeLab/flappybird.git"
   },
   "keywords": [
     "h5",
@@ -23,9 +23,9 @@
   "author": "cycjimmy <cycjimmy@gmail.com> (https://github.com/cycjimmy)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cycjimmy/flappybird/issues"
+    "url": "https://github.com/cycdpoCodeLab/flappybird/issues"
   },
-  "homepage": "https://github.com/cycjimmy/flappybird#readme",
+  "homepage": "https://github.com/cycdpoCodeLab/flappybird#readme",
   "dependencies": {
     "awesome-js-funcs": "^0.1.0",
     "hilojs": "^1.1.6"
